@@ -1,16 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFileLines, faXmark } from '@fortawesome/free-solid-svg-icons';
-import drumkit from '../images/drumKit.png'
-import { useEffect } from 'react';
-import Projects from '../projects/Projects';
-import Navbarr from '../navbaar/Navbarr';
+import { faFileLines } from '@fortawesome/free-solid-svg-icons';
+
+
 import { ReactTyped } from "react-typed";
 import './home.css';
-import About from '../about/About';
 import Particalss from '../particals/Particalss';
-import Contactme from '../contact/Contactme';
 const Home = () => {
   return (
     <>
