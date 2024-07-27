@@ -1,0 +1,49 @@
+.navbk{
+    /* background-color: rgba(8, 8, 97, 0.977); */
+    background-color: #032b66;
+    border-bottom: 1px solid rgb(194, 192, 192);
+    height: 8vh;
+    position:relative;
+    max-width: 100%;
+    width: 100%;
+    z-index: 18;
+    border-bottom: 0px;
+}
+.bgcontainer{
+    background-color: #032b66;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 56px;
+    padding-right: 58px;
+    width: 100%;
+    z-index: 18;
+}
+.nav-brd{
+    font-weight: 600;
+    color: yellow  ;
+}
+.me-auto a{
+    margin-left: 30px;
+    color: rgb(141, 206, 241)  ;
+    
+}
+.nav-link:hover,.nav-link::after,.nav-link:focus {
+    margin-bottom: 4px;
+    padding-bottom: 3px;
+    /* border-bottom: 2px solid yellow; */
+    animation:forwards;
+    animation-name: linksanimat;
+    animation-duration: 1s;
+    color: rgb(141, 206, 241)  ;
+}
+@keyframes linksanimat{
+    from{border-bottom: 2px solid rgb(255, 238, 0)}
+    to{border-bottom: 2px solid rgb(255, 255, 34)}
+}
+@media (max-width: 600px){
+    .me-auto a{
+        margin-left: 0px;
+        color: rgb(141, 206, 241)  ;
+        
+    }
+}

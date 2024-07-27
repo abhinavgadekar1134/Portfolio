@@ -1,0 +1,147 @@
+/* .projectsModal{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    left: 22%;
+    background-color: white;
+    box-shadow: 1px 1px 10px 5px rgb(187, 186, 186);
+    border: 2px solid black;
+    margin: 1% auto auto auto;
+    z-index: 100;
+    animation: projectsModal;
+    -webkit-animation: projectsModal 1s;
+    animation-fill-mode: forwards;
+}
+
+ */
+
+@keyframes projectsModal {
+  0% {
+    transform: scale(0, 0);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.modal111 a {
+  text-decoration: none;
+  color: blue;
+}
+
+.click-prj {
+  color: black;
+  font-weight: 700;
+}
+
+.btn-modal111 {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal111-content {
+  animation: projectsModal;
+  -webkit-animation: projectsModal 2s;
+  animation-fill-mode: forwards;
+}
+
+.modal111,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+
+}
+.projectmaindiv{
+  background-color: rgba(228, 227, 233, 0.977);
+  height: 92vh;
+}
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+
+.modal111-content {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  right: 30%;
+  /* transform: translate(-50%, -50%); */
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 200px;
+}
+
+.close-modal111 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+}
+.modal111 .proj-img , .modal111 .proj-img0{
+  /* width: 90%; */
+  text-align: center;
+  align-items: center;
+  border: 4px double black;
+}
+.proj-img0{
+  height: 150px;
+  width: 90%;
+
+}
+.proj-img {
+  width: 100%;
+  max-height: 250px;
+}
+.projects-cols:hover{
+  scale: 1.050;
+  transition: 1s;
+}
+
+.projects-container p {
+  text-align: center;
+  color: crimson;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: rgb(1, 15, 75);
+  padding-top: 2px;
+  width: 100%;
+  height: 40px;
+  
+  color: #f1f1f1;
+}
+.projects-container p , .projects-cols{
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.projects-cols {
+  border: 1px groove rgb(1, 15, 75);
+  
+  min-width: 250px;
+  max-width: 23%;
+  text-align: center;
+  margin: 10px;
+  margin-left: 15px;
+  padding: 0px;
+  padding-bottom: 20px;
+}
+@media (max-width:768px) {
+  .projects-cols{
+    min-width: 200px;
+    max-width: 90%;
+  }
+}

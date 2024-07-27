@@ -1,0 +1,25 @@
+.skilimges{
+    width: 100px;
+    
+
+}
+.skilmaindiv{
+    background-color: #032b66;
+    color: aqua;
+    /* background-image: url('../images/bgimg.png'); */
+    min-height: 92vh;
+
+}
+.skilmaindiv h2{
+    color: white;
+}
+.skildiv{
+    position: relative;
+    z-index: 15;
+
+    color: aqua    ;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 40px;
+}

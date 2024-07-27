@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Domine:wght@400..700&display=swap');
+/* About me */
+.myimg{
+    height: 20rem;
+    width: 40%;
+    border: 3px solid rgb(126, 131, 152);
+}
+
+.title-p{
+    text-align: center;
+    margin-top:100px;
+    padding-top: 100px;
+    color: white;
+} 
+.pr-img
+{
+    margin-top: 50px;
+    height: 200px;
+    width: 400px;
+    transition: transform .5s; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.pr-img:hover{
+    transform: scale(0.9); 
+}
+.about-me{
+    color: black;
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    max-width: 100%;
+    height: 70vh;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* max-height: 90vh; */
+}
+.introabout h2{
+    font-family: "Alice", serif;
+  font-weight: 600;
+  font-size: 60px;
+  font-style: normal;
+}
+.cont-details{
+    position: relative;
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    color: #032b66;
+
+}
+.cont-detailscol{
+   border-left: 4px solid orange;
+   border-right : 4px solid orange;
+   margin-bottom: 10px;
+}
+.cont-icons{
+    font-size: 25px;
+    padding-bottom: 10px;  
+}
+.con-det{
+    border-bottom: 4px solid orange;
+    padding-bottom: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.con-det a{
+    color: #032b66;
+    text-decoration: none;
+}
+@media only screen and (max-width: 800px) {
+    .about-me{
+        height: 100vh;
+    }
+    .cont-detailscol{
+        border: none;
+    }
+    .con-det{
+        border: none;
+    }
+}
