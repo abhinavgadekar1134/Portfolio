@@ -1,5 +1,8 @@
 import React from 'react'
 import './Contactme.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faReact, faLinkedin, faSquareXTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
+
 import Particalss from '../particals/Particalss'
 const Contactme = () => {
     return (
@@ -31,8 +34,21 @@ const Contactme = () => {
                     </tr>
                 </table>
             </div>
+
             <div class="copy">
+                <a href="https://linkedin.com/in/abhinavgadekar" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon className='cicons' icon={faLinkedin} />
+                </a>
+
+                <a href="https://x.com/AbhinavGadekar5" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon className='cicons' icon={faSquareXTwitter} />
+                </a>
+
+                <a href="https://github.com/abhinavgadekar1134 " target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon className='cicons' icon={faGithub} />
+                </a>
                 <p>Copyrights © {(new Date().getFullYear())} | Abhinav Gadekar All rights reserved.</p>
+
             </div>
         </>
     )

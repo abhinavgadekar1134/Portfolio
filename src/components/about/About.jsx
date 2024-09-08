@@ -17,8 +17,8 @@ const About = () => {
                     </div>
                     <div class="col-sm introabout">
                         <h2>ABHINAV GADEKAR</h2>
-                        <p>I am Computer Engineering student currently studing in third year Computer Engineering. Aspiring software developer seeking hands-on experience and growth opportunities to apply and enhance programming skills in creating innovative and efficient software solutions. Committed to continuous learning and collaboration within dynamic development teams.</p>
-                        <a href="https://drive.google.com/file/d/157FShp9d5Xhv2nHdIFKzPoQiteQ8PN2w/view?usp=drive_link"><button class="btn btn-outline-warning">Resume <i class="bi bi-file-text"></i></button></a>
+                        <p>I am Computer Engineering student currently studing in last year Computer Engineering (BE). Aspiring software developer seeking hands-on experience and growth opportunities to apply and enhance programming skills in creating innovative and efficient software solutions. Committed to continuous learning and collaboration within dynamic development teams.</p>
+                        <a href="https://drive.google.com/file/d/1ekQccYXAdXJnEJjgg1inM-_gIEJMrq8Y/view?usp=sharing"><button class="btn btn-outline-warning">Resume <i class="bi bi-file-text"></i></button></a>
                         &nbsp;&nbsp;<Link to={'/contactme'} class="btn btn-outline-success">Contact Now <i class="bi bi-envelope"></i></Link>
 
                     </div>
@@ -36,8 +36,8 @@ const About = () => {
                         </Col>  
                         <Col className='cont-detailscol'>
                             <div className='con-det con-det2 '>
-                                <a href="mailto:abhinavgadekar146@gmail.com"><FontAwesomeIcon className='cont-icons' icon={faEnvelope} />
-                                <h5>abhinavgadekar146@gmail.com</h5></a>
+                                <a href="mailto:abhinavgadekar1379@gmail.com"><FontAwesomeIcon className='cont-icons' icon={faEnvelope} />
+                                <h5>abhinavgadekar1379@gmail.com</h5></a>
                             </div>
                         </Col>
                         <Col>

@@ -4,20 +4,20 @@
 
 }
 .skilmaindiv{
-    background-color: #032b66;
-    color: aqua;
+    background-color: rgba(228, 227, 233, 0.976);
+    color: rgb(0, 0, 0);
     /* background-image: url('../images/bgimg.png'); */
     min-height: 92vh;
 
 }
 .skilmaindiv h2{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .skildiv{
     position: relative;
     z-index: 15;
 
-    color: aqua    ;
+    color: rgb(0, 0, 0)    ;
     text-align: center;
     padding-left: 150px;
     padding-right: 150px;

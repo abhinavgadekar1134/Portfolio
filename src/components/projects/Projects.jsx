@@ -5,6 +5,24 @@ import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import drumkit from '../images/drumKit.png'
 import atminterface from '../images/atminterface.png';
 import ecomm from '../images/ecomm.png';
+import babyCry1 from '../images/babyCry1.png';
+import babyCry2 from '../images/babyCry2.png';
+import babyCry3 from '../images/babyCry3.png';
+
+import ecomm1 from '../images/ecomm1.png';
+import ecomm2 from '../images/ecomm2.png';
+import ecomm3 from '../images/ecomm3.png';
+
+import rental1 from '../images/rental1.jpg';
+import rental2 from '../images/rental2.jpg';
+import rental3 from '../images/rental3.jpg';
+import rental4 from '../images/rental4.jpg';
+
+import college1 from '../images/college1.jpg';
+import college2 from '../images/college2.jpg';
+import college3 from '../images/college3.jpg';
+
+
 import { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -29,9 +47,9 @@ const Projects = () => {
     },
     modal2: {
       'title': 'E-commerce Web',
-      'modimg': ecomm,
-      'modimg1': ecomm,
-      'modimg2': ecomm,
+      'modimg': ecomm1,
+      'modimg1': ecomm2,
+      'modimg2': ecomm3,
       'description': "In the ever-evolving world of online commerce, having a strong online presence is paramount. As consumers increasingly turn to the internet for their shopping needs, an e-commerce website is not just a luxury; it's a necessity. In my portfolio, I proudly present an immersive journey into the world of e-commerce web development.",
       'projectlink': 'https://github.com/abhinavgadekar1134'
     },
@@ -44,16 +62,34 @@ const Projects = () => {
       'projectlink': 'https://github.com/abhinavgadekar1134'
     },
     modal4: {
-      'title': 'ssdf',
-      'modimg': drumkit,
-      'modimg1': drumkit,
-      'modimg2': drumkit,
+      'title': 'Car Rental Application',
+      'modimg': rental1,
+      'modimg1': rental2,
+      'modimg2': rental3,
 
-      'description': 'fgb kit isfgbng elit. Aliquid quod officia quos corporis tempore, dolores, animi debitis quae eius voluptates veritatis necessitatibus facere? Sequi est minima eos incidunt dolorum hic?    ',
+      'description': 'Developed a comprehensive car rental application using the MERN stack, which includes essential user functionalities such as login and logout, enabling users to rent cars seamlessly after successful authentication. An application provides a user friendly interface to browse and select available cars for rental. Implemented a robust backend UI for administrators to manage the car inventory efficiently. This includes features to add, remove, updatecardetails, andmodifyrentalinformation, ensuringsmoothandeffectivemanagementofthecarrentalservice.',
       'projectlink': 'https://github.com/abhinavgadekar1134'
     },
+    modal5: {
+      'title': 'Baby Cry Detection System',
+      'modimg': babyCry1,
+      'modimg1': babyCry2,
+      'modimg2': babyCry3,
+
+      'description': 'Developed a system for baby cry detection and soothing system using Machine Learning technique. Used K-Nearest Neighbors (KNN) and Modified Priority Scheduling Algorithm. Aim is to enhance detection accuracy and implement an effective soothing mechanism by prioritizing critical cries. For Soothing babies we used Modified Priority Scheduling Algorithm. Also, utilized machine learning techniques to achieve reliable and responsive performance.',
+      'projectlink': 'https://github.com/abhinavgadekar1134'
+    },
+    modal6: {
+      'title': 'College Management System',
+      'modimg': college1,
+      'modimg1': college2,
+      'modimg2': college3,
+
+      'description': 'Developed a system for baby cry detection and soothing system using Machine Learning technique. Used K-Nearest Neighbors (KNN) and Modified Priority Scheduling Algorithm. Aim is to enhance detection accuracy and implement an effective soothing mechanism by prioritizing critical cries. For Soothing babies we used Modified Priority Scheduling Algorithm. Also, utilized machine learning techniques to achieve reliable and responsive performance.',
+      'projectlink': 'https://github.com/abhinavgadekar1134'
+    }
   }
-  var modd = [modals.modal1, modals.modal2, modals.modal3, modals.modal4]
+  var modd = [ modals.modal4, modals.modal2,modals.modal5,modals.modal6,modals.modal1, modals.modal3]
   var count = 0; var flag = false;
   return (
     <>
@@ -120,7 +156,7 @@ const Projects = () => {
         }
 
       </div>
-
+        
     </>
   )
 }
