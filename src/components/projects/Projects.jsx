@@ -85,7 +85,7 @@ const Projects = () => {
       'modimg1': college2,
       'modimg2': college3,
 
-      'description': 'Developed a system for baby cry detection and soothing system using Machine Learning technique. Used K-Nearest Neighbors (KNN) and Modified Priority Scheduling Algorithm. Aim is to enhance detection accuracy and implement an effective soothing mechanism by prioritizing critical cries. For Soothing babies we used Modified Priority Scheduling Algorithm. Also, utilized machine learning techniques to achieve reliable and responsive performance.',
+      'description': 'The College Management System is an admin dashboard designed to streamline student and teacher data management. It enables administrators to efficiently insert, update, and delete records for students and teachers through an intuitive interface. The system ensures secure and organized handling of institutional data, improving administrative workflows. Built for scalability and ease of use, it caters to modern educational institution needs. This system simplifies routine tasks, reducing manual efforts and enhancing productivity.',
       'projectlink': 'https://github.com/abhinavgadekar1134'
     }
   }
