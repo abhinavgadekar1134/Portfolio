@@ -145,7 +145,7 @@ const Projects = () => {
                 </Carousel>
                 
               </div>
-              <p>
+              <p class='justified-text'>
                 {curmodal.data.description}
               </p>
               <center><a href={curmodal.data.projectlink}><span className='click-prj'>Click here: &nbsp;</span>View Source code</a>
