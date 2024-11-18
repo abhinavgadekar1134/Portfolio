@@ -91,12 +91,8 @@ const Projects = () => {
       'modimg2': college3,
 
       'description': 'The College Management System is an admin dashboard designed to streamline student and teacher data management. It enables administrators to efficiently insert, update, and delete records for students and teachers through an intuitive interface. The system ensures secure and organized handling of institutional data, improving administrative workflows. Built for scalability and ease of use, it caters to modern educational institution needs. This system simplifies routine tasks, reducing manual efforts and enhancing productivity.',
-<<<<<<< HEAD
       'projectlink': 'https://github.com/abhinavgadekar1134',
       'projectlivelink':'https://github.com/abhinavgadekar1134/DrumKit' 
-=======
-      'projectlink': 'https://github.com/abhinavgadekar1134'
->>>>>>> 11a885b0f69245b46472e5cbd493939bd07e448a
     }
   }
   var modd = [ modals.modal4, modals.modal2,modals.modal5,modals.modal6,modals.modal1, modals.modal3]
