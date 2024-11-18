@@ -43,7 +43,8 @@ const Projects = () => {
       'modimg1': drumkit,
       'modimg2': drumkit,
       'description': "In this fun and engaging web development project, I had created an interactive drum kit using HTML, CSS, and JavaScript. This project will allow users to play various drum sounds by clicking on the corresponding drum pads or by using keyboard keys. It's an excellent way to learn about event handling, audio integration, and user interface design while having a blast making music!",
-      'projectlink': 'https://github.com/abhinavgadekar1134/DrumKit'
+      'projectlink': 'https://github.com/abhinavgadekar1134/DrumKit',
+      'projectlivelink':'https://abhinavgadekar1134.github.io/DrumKit/' 
     },
     modal2: {
       'title': 'E-commerce Web',
@@ -51,7 +52,8 @@ const Projects = () => {
       'modimg1': ecomm2,
       'modimg2': ecomm3,
       'description': "In the ever-evolving world of online commerce, having a strong online presence is paramount. As consumers increasingly turn to the internet for their shopping needs, an e-commerce website is not just a luxury; it's a necessity. In my portfolio, I proudly present an immersive journey into the world of e-commerce web development.",
-      'projectlink': 'https://github.com/abhinavgadekar1134'
+      'projectlink': 'https://github.com/abhinavgadekar1134',
+      'projectlivelink':'https://github.com/abhinavgadekar1134/DrumKit' 
     },
     modal3: {
       'title': 'ATM Interface',
@@ -59,7 +61,8 @@ const Projects = () => {
       'modimg1': atminterface,
       'modimg2': atminterface,
       'description': "The main aim of this project is to design ATM interface using Java Programming. Automated Teller Machine enables the clients of a bank to have access to their account without going to the bank. This is achieved only by development the application using online concepts. This project helps us to understand various packages in java like awt, util, swing and its Components.",
-      'projectlink': 'https://github.com/abhinavgadekar1134'
+      'projectlink': 'https://github.com/abhinavgadekar1134',
+      'projectlivelink':'https://github.com/abhinavgadekar1134/DrumKit' 
     },
     modal4: {
       'title': 'Car Rental Application',
@@ -68,7 +71,8 @@ const Projects = () => {
       'modimg2': rental3,
 
       'description': 'Developed a comprehensive car rental application using the MERN stack, which includes essential user functionalities such as login and logout, enabling users to rent cars seamlessly after successful authentication. An application provides a user friendly interface to browse and select available cars for rental. Implemented a robust backend UI for administrators to manage the car inventory efficiently. This includes features to add, remove, updatecardetails, andmodifyrentalinformation, ensuringsmoothandeffectivemanagementofthecarrentalservice.',
-      'projectlink': 'https://github.com/abhinavgadekar1134'
+      'projectlink': 'https://github.com/abhinavgadekar1134',
+      'projectlivelink':'https://car-rental-te.netlify.app/' 
     },
     modal5: {
       'title': 'Baby Cry Detection System',
@@ -77,7 +81,8 @@ const Projects = () => {
       'modimg2': babyCry3,
 
       'description': 'Developed a system for baby cry detection and soothing system using Machine Learning technique. Used K-Nearest Neighbors (KNN) and Modified Priority Scheduling Algorithm. Aim is to enhance detection accuracy and implement an effective soothing mechanism by prioritizing critical cries. For Soothing babies we used Modified Priority Scheduling Algorithm. Also, utilized machine learning techniques to achieve reliable and responsive performance.',
-      'projectlink': 'https://github.com/abhinavgadekar1134'
+      'projectlink': 'https://github.com/abhinavgadekar1134',
+      'projectlivelink':'https://github.com/abhinavgadekar1134/DrumKit' 
     },
     modal6: {
       'title': 'College Management System',
@@ -85,8 +90,9 @@ const Projects = () => {
       'modimg1': college2,
       'modimg2': college3,
 
-      'description': 'Developed a system for baby cry detection and soothing system using Machine Learning technique. Used K-Nearest Neighbors (KNN) and Modified Priority Scheduling Algorithm. Aim is to enhance detection accuracy and implement an effective soothing mechanism by prioritizing critical cries. For Soothing babies we used Modified Priority Scheduling Algorithm. Also, utilized machine learning techniques to achieve reliable and responsive performance.',
-      'projectlink': 'https://github.com/abhinavgadekar1134'
+      'description': 'The College Management System is an admin dashboard designed to streamline student and teacher data management. It enables administrators to efficiently insert, update, and delete records for students and teachers through an intuitive interface. The system ensures secure and organized handling of institutional data, improving administrative workflows. Built for scalability and ease of use, it caters to modern educational institution needs. This system simplifies routine tasks, reducing manual efforts and enhancing productivity.',
+      'projectlink': 'https://github.com/abhinavgadekar1134',
+      'projectlivelink':'https://github.com/abhinavgadekar1134/DrumKit' 
     }
   }
   var modd = [ modals.modal4, modals.modal2,modals.modal5,modals.modal6,modals.modal1, modals.modal3]
@@ -145,10 +151,11 @@ const Projects = () => {
                 </Carousel>
                 
               </div>
-              <p>
+              <p class='justified-text'>
                 {curmodal.data.description}
               </p>
               <center><a href={curmodal.data.projectlink}><span className='click-prj'>Click here: &nbsp;</span>View Source code</a>
+               &nbsp;| <a href={curmodal.data.projectlivelink}>Live Project</a>
                 <p>Click Outside box to exit</p></center>
               <button className='close-modal111' onClick={(e) => setcurmodal({ flag: false, data: {} })}><FontAwesomeIcon icon={faXmark} /></button>
             </div>
