@@ -24,7 +24,12 @@
     transform: scale(1, 1);
   }
 }
-
+.justified-text {
+  text-align: justify;
+  font-family: Arial, sans-serif; /* Optional: Choose a font */
+  font-size: 16px; /* Optional: Set font size */
+  line-height: 1.6; /* Optional: Set line spacing for better readability */
+}
 body.active-modal {
   overflow-y: hidden;
 }
