@@ -30,7 +30,7 @@ const About = () => {
                         <Col>
                             <div className='con-det'>
                                 <a href="tel:8010700592"><FontAwesomeIcon className='cont-icons' icon={faPhone} />
-                                    <h5>+91801-070-0292</h5>
+                                    <h5>+91801-070-0592</h5>
                                 </a>
                             </div>
                         </Col>  
