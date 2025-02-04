@@ -22,6 +22,9 @@ import college1 from '../images/college1.jpg';
 import college2 from '../images/college2.jpg';
 import college3 from '../images/college3.jpg';
 
+import dash1 from '../images/dash1.png';
+import dash2 from '../images/dash2.png';
+import dash3 from '../images/dash3.png';
 
 import { useState } from 'react';
 import Container from 'react-bootstrap/Container';
@@ -94,9 +97,20 @@ const Projects = () => {
       'projectlink': 'https://github.com/abhinavgadekar1134',
       'projectlivelink':'https://github.com/abhinavgadekar1134/DrumKit' 
 
+    },
+    modal7: {
+      'title': 'Admin Dashboard',
+      'modimg': dash1,
+      'modimg1': dash2,
+      'modimg2': dash3,
+
+      'description': 'Developed a MERN Stack Admin Dashboard for centralized control of business operations, providing features like user management and inventory management. Implemented a RESTful API to enable seamless data exchange between the frontend and backend, ensuring efficient and secure data access. The dashboard offers a user-friendly interface for administrators to manage users, roles, and permissions, enhancing operational efficiency and control. The application is designed to be scalable and customizable, catering to diverse business needs.',
+      'projectlink': 'https://github.com/abhinavgadekar1134',
+      'projectlivelink':'https://github.com/abhinavgadekar1134/DrumKit' 
+
     }
   }
-  var modd = [ modals.modal4, modals.modal2,modals.modal5,modals.modal6,modals.modal1, modals.modal3]
+  var modd = [ modals.modal4, modals.modal2,modals.modal5,modals.modal6,modals.modal1, modals.modal3,modals.modal7]
   var count = 0; var flag = false;
   return (
     <>
