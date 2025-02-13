@@ -105,8 +105,8 @@ const Projects = () => {
       'modimg2': dash3,
 
       'description': 'Developed a MERN Stack Admin Dashboard for centralized control of business operations, providing features like user management and inventory management. Implemented a RESTful API to enable seamless data exchange between the frontend and backend, ensuring efficient and secure data access. The dashboard offers a user-friendly interface for administrators to manage users, roles, and permissions, enhancing operational efficiency and control. The application is designed to be scalable and customizable, catering to diverse business needs.',
-      'projectlink': 'https://github.com/abhinavgadekar1134',
-      'projectlivelink':'https://github.com/abhinavgadekar1134/DrumKit' 
+      'projectlink': 'https://github.com/abhinavgadekar1134/Admin_Dashboard_MERN',
+      'projectlivelink':'https://admindashboard-mern.netlify.app/' 
 
     }
   }
