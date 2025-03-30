@@ -66,11 +66,12 @@ body.active-modal {
   right: 0;
   bottom: 0;
   position: fixed;
+  overflow-x: auto;
 
 }
 .projectmaindiv{
   background-color: rgba(228, 227, 233, 0.977);
-  height: 92vh;
+  height: auto;
 }
 .overlay {
   background: rgba(49, 49, 49, 0.8);
@@ -80,6 +81,7 @@ body.active-modal {
             font-family: Arial, sans-serif; /* Optional: Choose a font */
             font-size: 16px; /* Optional: Set font size */
             line-height: 1.6; /* Optional: Set line spacing for better readability */
+            white-space: pre-line;
         }
 .modal111-content {
   position: absolute;
@@ -153,5 +155,10 @@ body.active-modal {
   .projects-cols{
     min-width: 200px;
     max-width: 90%;
+  }
+  .modal111-content{
+    left: 10%;
+    right: 10%;
+    overflow-y:hidden;
   }
 }

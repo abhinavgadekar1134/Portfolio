@@ -83,4 +83,9 @@
     .con-det{
         border: none;
     }
+    .myimg{
+        height: 20rem;
+        width: 70%;
+        border: 3px solid rgb(126, 131, 152);
+    }
 }
