@@ -32,6 +32,10 @@ import deepfake3 from '../images/deepfake3.png';
 
 import todo1 from '../images/todo1.png';
 
+import JobAppTrack1 from '../images/JobAppTrack1.png';
+import JobAppTrack2 from '../images/JobAppTrack2.png';
+import JobAppTrack3 from '../images/JobAppTrack3.png';
+
 import { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -124,18 +128,22 @@ const Projects = () => {
         "Live Monitoring – Provides real-time insights on baby’s crying patterns."]
     },
     modal6: {
-      'title': 'College Management System',
+      'title': 'Campus Connect',
       'modimg': college1,
       'modimg1': college2,
       'modimg2': college3,
 
-      'description': 'The College Management System is an admin dashboard designed to streamline student and teacher data management. It enables administrators to efficiently insert, update, and delete records for students and teachers through an intuitive interface. The system ensures secure and organized handling of institutional data, improving administrative workflows. Built for scalability and ease of use, it caters to modern educational institution needs. This system simplifies routine tasks, reducing manual efforts and enhancing productivity.',
+      'description': 'Campus Connect is a web-based college management system designed to simplify administrative tasks through a secure admin login. The application enables efficient management of student and teacher records using CRUD operations. Built with Java, JSP, Servlets, and MySQL, the project demonstrates strong fundamentals in backend development, database connectivity, and server-side web technologies.',
       'projectlink': 'https://github.com/abhinavgadekar1134',
-      'projectlivelink': 'https://github.com/abhinavgadekar1134/DrumKit',
-      'features': ["Student Management – Add, update, and delete student records efficiently.",
-        "Teacher Management – Maintain faculty records with role-based access.",
-        "Course & Subject Management – Assign subjects to teachers and track course details.",
-        "Secure Authentication – Role-based login system for admins, teachers, and students."]
+      'projectlivelink': 'https://github.com/abhinavgadekar1134',
+      "features": [
+  "Secure Admin Login – Authentication to restrict system access.",
+  "Student Management – Add, update, view, and delete student records.",
+  "Teacher Management – Perform CRUD operations on teacher data.",
+  "Database Integration – MySQL used for data storage and retrieval.",
+  "Web-Based Interface – Built using JSP and Servlets with a simple UI."
+]
+
 
     },
     modal7: {
@@ -168,17 +176,35 @@ const Projects = () => {
     }
     , modal9: {
       'title': 'Gen AI To-Do List',
-      'modimg': todo1,
-      'modimg1': todo1,
-      'modimg2': todo1,
+      'modimg': JobAppTrack1,
+      'modimg1': JobAppTrack2,
+      'modimg2': JobAppTrack3,
 
       'description': 'An intelligent and user-friendly to-do list powered by AI, designed to enhance productivity with smart task management features. Built using HTML, CSS, and JavaScript, the app leverages Groq Cloud for AI-driven task automation.  Key Features: AI-Powered Task Management – Add, update, and delete tasks effortlessly with AI assistance. Smart Task Suggestions – AI analyzes tasks and suggests priorities to improve efficiency. Real-Time Updates – Instant feedback for seamless task modifications. Simple & Intuitive UI – A clean, responsive interface for smooth user experience.This project showcases my ability to integrate AI with frontend technologies, delivering an interactive and efficient task management solution. 🚀',
       'projectlink': 'https://github.com/abhinavgadekar1134/To_do_app',
       'projectlivelink': 'https://abhinavgadekar1134.github.io/To_do_app/',
       'features': ["Smart Task Suggestions – AI analyzes tasks and suggests priorities to improve efficiency.", "Real-Time Updates – Instant feedback for seamless task modifications.", "Simple & Intuitive UI  A clean, responsive interface for smooth user experience."],
     }
+    ,modal10: {
+      'title': 'AI-Based Job Application Tracker',
+      'modimg': todo1,
+      'modimg1': todo1,
+      'modimg2': todo1,
+
+      'description': 'AI-Based Job Application Tracker is a full-stack web application that allows users to securely manage and track job applications through a centralized dashboard. It implements secure user authentication using JWT and encrypted passwords to protect user data. Users can add, update, and monitor applications with status tracking such as Applied, Interview, and Rejected. The application integrates AI to generate professional follow-up emails and summarize job descriptions, demonstrating real-world full-stack development with practical AI integration using React, Node.js, Express, and MongoDB.🚀',
+      'projectlink': 'https://github.com/abhinavgadekar1134/job-application-tracker',
+      'projectlivelink': 'https://jobs-app-tracker-ag.netlify.app/',
+      "features": [
+  "Secure Authentication – JWT login with encrypted passwords.",
+  "Job Application Management – Add, update, and track applications.",
+  "Status Tracking – Applied / Interview / Rejected.",
+  "AI-Generated Follow-Up Emails.",
+  "Simple & Intuitive Dashboard UI."
+]
+    }
+  
   }
-  var modd = [modals.modal8, modals.modal4, modals.modal2, modals.modal9, modals.modal5, modals.modal6, modals.modal3, modals.modal7, modals.modal1]
+  var modd = [modals.modal10, modals.modal8, modals.modal4, modals.modal2, modals.modal9, modals.modal5, modals.modal6, modals.modal3, modals.modal7, modals.modal1]
   var count = 0; var flag = false;
   return (
     <>
