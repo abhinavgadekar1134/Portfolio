@@ -10,17 +10,23 @@ import javascri from '../images2/js.png';
 import reactjs from '../images2/react.png';
 import sqlimg from '../images2/mysqll.png';
 import pythonimg from '../images2/python.png';
-
+import nodejs from '../images2/nodejs.png';
+import mongodb from '../images2/mongodb.jpg';
 const skills = [
   { img: c, name: 'C' },
   { img: cpp, name: 'C++' },
+  
+  { img: pythonimg, name: 'Python' },
   { img: ht, name: 'HTML 5' },
   { img: cs, name: 'CSS 3' },
   { img: jav, name: 'Java' },
   { img: javascri, name: 'JavaScript' },
-  { img: reactjs, name: 'ReactJS' },
+
   { img: sqlimg, name: 'SQL' },
-  { img: pythonimg, name: 'Python' }
+ 
+  { img: mongodb, name: 'MongoDB' },
+    { img: reactjs, name: 'ReactJS' },
+     { img: nodejs, name: 'NodeJS' },
 ];
 
 const Skills = () => {

@@ -18,9 +18,9 @@ import rental2 from '../images/rental2.jpg';
 import rental3 from '../images/rental3.jpg';
 import rental4 from '../images/rental4.jpg';
 
-import college1 from '../images/college1.jpg';
-import college2 from '../images/college2.jpg';
-import college3 from '../images/college3.jpg';
+import college1 from '../images/college1.png';
+import college2 from '../images/college2.png';
+import college3 from '../images/college3.png';
 
 import dash1 from '../images/dash1.png';
 import dash2 from '../images/dash2.png';
@@ -176,9 +176,10 @@ const Projects = () => {
     }
     , modal9: {
       'title': 'Gen AI To-Do List',
-      'modimg': JobAppTrack1,
-      'modimg1': JobAppTrack2,
-      'modimg2': JobAppTrack3,
+      
+      'modimg': todo1,
+      'modimg1': todo1,
+      'modimg2': todo1,
 
       'description': 'An intelligent and user-friendly to-do list powered by AI, designed to enhance productivity with smart task management features. Built using HTML, CSS, and JavaScript, the app leverages Groq Cloud for AI-driven task automation.  Key Features: AI-Powered Task Management – Add, update, and delete tasks effortlessly with AI assistance. Smart Task Suggestions – AI analyzes tasks and suggests priorities to improve efficiency. Real-Time Updates – Instant feedback for seamless task modifications. Simple & Intuitive UI – A clean, responsive interface for smooth user experience.This project showcases my ability to integrate AI with frontend technologies, delivering an interactive and efficient task management solution. 🚀',
       'projectlink': 'https://github.com/abhinavgadekar1134/To_do_app',
@@ -187,9 +188,9 @@ const Projects = () => {
     }
     ,modal10: {
       'title': 'AI-Based Job Application Tracker',
-      'modimg': todo1,
-      'modimg1': todo1,
-      'modimg2': todo1,
+      'modimg': JobAppTrack1,
+      'modimg1': JobAppTrack2,
+      'modimg2': JobAppTrack3,
 
       'description': 'AI-Based Job Application Tracker is a full-stack web application that allows users to securely manage and track job applications through a centralized dashboard. It implements secure user authentication using JWT and encrypted passwords to protect user data. Users can add, update, and monitor applications with status tracking such as Applied, Interview, and Rejected. The application integrates AI to generate professional follow-up emails and summarize job descriptions, demonstrating real-world full-stack development with practical AI integration using React, Node.js, Express, and MongoDB.🚀',
       'projectlink': 'https://github.com/abhinavgadekar1134/job-application-tracker',
@@ -204,7 +205,7 @@ const Projects = () => {
     }
   
   }
-  var modd = [modals.modal10, modals.modal8, modals.modal4, modals.modal2, modals.modal9, modals.modal5, modals.modal6, modals.modal3, modals.modal7, modals.modal1]
+  var modd = [modals.modal10, modals.modal8, modals.modal4, modals.modal2, modals.modal9,modals.modal7,modals.modal6, modals.modal5,  modals.modal3, modals.modal1]
   var count = 0; var flag = false;
   return (
     <>
