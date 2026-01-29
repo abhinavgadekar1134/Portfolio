@@ -23,7 +23,7 @@ const SendMail = () => {
     emailjs.init("gSNQ4v4w0nJ4ZaqT6"); // Initialize with your user ID
 
     emailjs
-      .send("service_e0e4v5a", "template_yl02r4q", formData)
+      .send("service_87pmkoo", "template_yl02r4q", formData)
       .then((response) => {
         alert("Email sent successfully!");
       })
