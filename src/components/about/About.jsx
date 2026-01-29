@@ -17,7 +17,7 @@ const About = () => {
                     </div>
                     <div class="col-sm introabout">
                         <h2>ABHINAV GADEKAR</h2>
-                        <p>I am Computer Engineering student currently studing in last year Computer Engineering (BE). Aspiring software developer seeking hands-on experience and growth opportunities to apply and enhance programming skills in creating innovative and efficient software solutions. Committed to continuous learning and collaboration within dynamic development teams.</p>
+                        <p>I am a Computer Engineering (BE) graduate from AVCOE College, Sangamner, with hands-on experience in full-stack web development, Java, MERN stack, and AI-based projects. Currently enhancing my skills by learning AWS cloud technologies. Aspiring software developer seeking opportunities to apply and build innovative software solutions, while committed to continuous learning and collaborating effectively within dynamic development teams.</p>
                         <a href="https://drive.google.com/file/d/1JpZVbvroF4kbXZAn0PPsiaTMd8LgeJg-/view?usp=drive_link"><button class="btn btn-outline-warning">Resume <i class="bi bi-file-text"></i></button></a>
                         &nbsp;&nbsp;<Link to={'/contactme'} class="btn btn-outline-success">Contact Now <i class="bi bi-envelope"></i></Link>
 

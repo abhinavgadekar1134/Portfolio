@@ -12,6 +12,7 @@ import sqlimg from '../images2/mysqll.png';
 import pythonimg from '../images2/python.png';
 import nodejs from '../images2/nodejs.png';
 import mongodb from '../images2/mongodb.jpg';
+import awslogo from '../images2/awslogo.png';
 const skills = [
   { img: c, name: 'C' },
   { img: cpp, name: 'C++' },
@@ -27,6 +28,7 @@ const skills = [
   { img: mongodb, name: 'MongoDB' },
     { img: reactjs, name: 'ReactJS' },
      { img: nodejs, name: 'NodeJS' },
+     { img: awslogo, name: 'AWS' },
 ];
 
 const Skills = () => {

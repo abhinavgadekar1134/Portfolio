@@ -1,5 +1,6 @@
 import { useState } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
+
 
 const SendMail = () => {
   const [formData, setFormData] = useState({
@@ -20,16 +21,22 @@ const SendMail = () => {
 
   const sendMail = (e) => {
     e.preventDefault();
-    emailjs.init("gSNQ4v4w0nJ4ZaqT6"); // Initialize with your user ID
 
-    emailjs
-      .send("service_87pmkoo", "template_yl02r4q", formData)
-      .then((response) => {
+     emailjs
+      .send(
+        "service_sapssyd",     // 🔹 Your Service ID
+        "template_mev43vk",    // 🔹 Your Template ID
+        formData,
+        "4E804E7kMpaOZRE0x"     // 🔹 Your Public Key
+      )
+      .then(() => {
         alert("Email sent successfully!");
       })
       .catch((error) => {
         alert("Email could not be sent: " + error.text);
       });
+
+      
   };
 
   return (
